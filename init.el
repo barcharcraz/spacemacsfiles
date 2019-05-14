@@ -16,11 +16,11 @@
 (defun dotspacemacs/init ()
   (setq-default
    dotspacemacs-editing-style 'vim
+   dotspacemacs-mode-line-theme 'spacemacs
    dotspacemacs-leader-key "SPC"
    dotspacemacs-emacs-leader-key "M-m"
    dotspacemacs-emacs-command-key "SPC"
    dotspacemacs-default-font '("Source Code Pro"
-                               :size 22
                                :weight normal
                                :width normal
                                :powerline-scale 1.1)))
